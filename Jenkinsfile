@@ -36,7 +36,7 @@ maven 'Maven3..9.5'
 
       stage("Deploy To Kuberates Cluster"){
        kubernetesDeploy(
-         configs: 'springBootMongo.yml', 
+         configs: 'Kubernete Manifast.yml', 
          kubeconfigId: 'KUBERNATES_CONFIG',
          enableConfigSubstitution: true
         )
